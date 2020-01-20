@@ -18,7 +18,7 @@ function App() {
     },
     {
       icon: instagram,
-      link: 'https://www.instagram.com/alexander_repz/',
+      link: 'https://www.instagram.com/rarepz/',
       target: '_blank',
       rel: 'noopener noreferrer”',
       id: 'instagram'
@@ -39,7 +39,7 @@ function App() {
 
         {/* ======= CONTENT ====== */}
         <div className="container">
-          <div className="graisss">
+          <div className="">
             <Header />
           </div>
           <TextHeader />

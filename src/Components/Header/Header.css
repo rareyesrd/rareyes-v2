@@ -7,17 +7,16 @@
 }
 
 .Header .title-header {
-  position: absolute;
-  top: 15%;
+  position: fixed;
+  top: 25%;
   left: 35%;
-  font-size: 80px;
-  color: #400082;
-  font-family: 'Teko', sans-serif;
-  letter-spacing: 10px;
 }
 
 .Header .title-header h1 {
-  margin: 0px !important;
+  color: #400082;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 10px;
+  font-size: 150px;
   line-height: 0;
 }
 

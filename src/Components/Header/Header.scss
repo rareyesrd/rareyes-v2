@@ -5,17 +5,15 @@ $primaryColor: #7e0af5;
    width: 50%;
    height: 100vh;
    overflow: hidden;
-   position: relative;
    .title-header{
-      h1{
-         position: absolute;
-         top: 0;
+      position: fixed;
+         top: 25%;
          left: 35%;
-         font-size: 80px;
+      h1{
          color: #400082;
          font-family: 'Teko', sans-serif;
          letter-spacing: 10px;
-         margin: 0px !important;
+         font-size: 150px;
          line-height: 0;
       span{
          font-size: 30px;
