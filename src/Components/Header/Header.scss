@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Teko&display=swap');
+$primaryColor: #7e0af5;
+.Header{
+   background-color: $primaryColor;
+   width: 50%;
+   height: 100vh;
+   overflow: hidden;
+   position: relative;
+   .title-header{
+      h1{
+         position: absolute;
+         top: 0;
+         left: 35%;
+         font-size: 80px;
+         color: #400082;
+         font-family: 'Teko', sans-serif;
+         letter-spacing: 10px;
+         margin: 0px !important;
+         line-height: 0;
+      span{
+         font-size: 30px;
+         font-family: 'Asap', sans-serif;
+      }
+      .text-flex{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+   }
+   }
+}

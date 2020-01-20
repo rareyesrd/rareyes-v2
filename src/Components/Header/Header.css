@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Asap|Teko&display=swap");
+.Header {
+  background-color: #7e0af5;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Header .title-header {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  font-size: 80px;
+  color: #400082;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 10px;
+}
+
+.Header .title-header h1 {
+  margin: 0px !important;
+  line-height: 0;
+}
+
+.Header .title-header h1 span {
+  font-size: 30px;
+  font-family: 'Asap', sans-serif;
+}
+
+.Header .title-header h1 .text-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Header.css.map */

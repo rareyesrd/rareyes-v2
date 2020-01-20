@@ -1,38 +1,72 @@
 .App {
+  position: relative;
+}
+
+.App .container {
+  width: 95%;
+  height: 90%;
+  margin: auto auto;
+  background-color: #f9f9f9;
+}
+
+.App .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .redes {
+  position: fixed;
+  top: 45%;
+  right: .9%;
+  margin: 0 auto;
+}
+
+.App .redes .redes-sociales {
+  list-style: none;
+}
+
+.App .redes .redes-sociales li {
+  margin-bottom: 5px;
+}
+
+.App .redes .redes-sociales li a .list-socials li a {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-area {
+  position: fixed;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-space {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+  width: 80px;
+  margin-left: 45px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
